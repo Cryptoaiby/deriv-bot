@@ -21,11 +21,11 @@ DELETE_SELECT = range(1)
 # ----------------------------
 # Supabase PostgreSQL connection
 # ----------------------------
-DB_HOST = "db.maplplayraamuqnoicqn.supabase.co"
+DB_HOST = "aws-1-eu-west-2.pooler.supabase.com"
 DB_NAME = "postgres"
-DB_USER = "postgres"
+DB_USER = "postgres.maplplayraamuqnoicqn"
 DB_PASS = "Iwipntakgrace"
-DB_PORT = 5432
+DB_PORT = 6543
 
 conn = psycopg2.connect(
     host=DB_HOST,
@@ -256,3 +256,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
